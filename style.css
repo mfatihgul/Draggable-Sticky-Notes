@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+/* Fonts Weights: 300 - 500 */
+body{
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #003049;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.draggable {
+    background-color: #D62828;
+    padding: 0;
+    display: inline-block;
+    resize: both;
+    width: 10vw;
+    height: 10vh;
+}
+.draggable:active{
+    z-index: 1;
+}
+.draggable textarea{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 100%;
+    height: 100%;
+    min-width: 10vw;
+    min-height: 10vh;
+    outline: none;
+}
+.draggable .head{
+    width: 100%;
+    height: 40px;
+    background-color: #FCBF49;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.draggable .head .title{
+    font-weight: 500;
+    color: #fff;
+    padding-left: 15px;
+    cursor: all-scroll;
+}
+.icon-container{
+    display: flex;
+    gap: 10px;
+    padding-right: 10px;
+}
+.icon{
+    cursor: pointer;
+}
+.btn{
+    width: 8rem;
+    height: 3rem;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    border: none;
+    color: #fff;
+    background-color: #F77F00;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+    z-index: 111;
+}
+.btn:hover{
+    background-color: #E07400;
+    border-bottom: 2px solid #F77F00;
+}
