@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS3 custom properties
+- HTML5
+- CSS3
 - Flexbox
 - Javascript
 - jQuery UI
